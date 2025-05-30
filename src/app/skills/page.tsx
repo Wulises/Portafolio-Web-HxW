@@ -1,6 +1,7 @@
 'use client'
 
-import Link from 'next/image'
+import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 const skillsHaru = [
@@ -60,7 +61,7 @@ export default function skillsPersona() {
                             transition={{ delay: 0.1 * index, duration: 0.5 }}
                             className="bg-darkBlack border-2 border-haruPurple rounded-xl p-4 shadow-[0_0_12px_#F2B5D4] flex flex-col items-center"
                         >
-                            <Link
+                            <Image
                                 src={skill.icon}
                                 alt={skill.name}
                                 width={50}
@@ -75,12 +76,12 @@ export default function skillsPersona() {
 
             </div>
 
-            <a
+            <Link 
                 href="/"
                 className="inline-block mt-8 px-6 py-2 border-2 border-royalGold text-royalGold hover:bg-royalGold hover:text-darkBlack transition-colors duration-300 font-semibold uppercase tracking-wider"
             >
                 Volver al Inicio
-            </a>
+            </Link>
 
         </main>
 
