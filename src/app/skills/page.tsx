@@ -1,7 +1,6 @@
 'use client'
 
-import Image from 'next/image'
-import Link from 'next/link'
+import Link from 'next/image'
 import { motion } from 'framer-motion'
 
 const skillsHaru = [
@@ -37,7 +36,7 @@ export default function skillsPersona() {
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    className="text-4xl md:text-5xl font-display text-haruPurple drop-shadow-md"
+                    className="text-4xl md:text-5xl font-display text-haruPurple"
                 >
                     Mis Habilidades Técnicas
                 </motion.h2>
@@ -46,7 +45,7 @@ export default function skillsPersona() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
-                    className="text-lg text-person font-body max-w-2xl mx-auto"
+                    className="text-lg text-creamWhite font-body max-w-2xl mx-auto"
                 >
                     Estas son las tecnologías con las que he trabajado y aprendido durante mi camino como desarrollador. ¡Cada una representa un paso en mi historia!
                 </motion.p>
@@ -61,7 +60,7 @@ export default function skillsPersona() {
                             transition={{ delay: 0.1 * index, duration: 0.5 }}
                             className="bg-darkBlack border-2 border-haruPurple rounded-xl p-4 shadow-[0_0_12px_#F2B5D4] flex flex-col items-center"
                         >
-                            <Image
+                            <Link
                                 src={skill.icon}
                                 alt={skill.name}
                                 width={50}
@@ -76,12 +75,12 @@ export default function skillsPersona() {
 
             </div>
 
-            <Link
+            <a
                 href="/"
                 className="inline-block mt-8 px-6 py-2 border-2 border-royalGold text-royalGold hover:bg-royalGold hover:text-darkBlack transition-colors duration-300 font-semibold uppercase tracking-wider"
             >
                 Volver al Inicio
-            </Link>
+            </a>
 
         </main>
 

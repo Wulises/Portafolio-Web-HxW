@@ -1,8 +1,7 @@
-'use client';
+'use client'
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-
 
 export default function AboutContent() {
   return (
@@ -25,8 +24,9 @@ export default function AboutContent() {
       >
         Soy Ulises, desarrollador full stack con un enfoque en frontend.
         Me apasiona crear experiencias elegantes, intuitivas y visualmente atractivas.
-        Amo el arte digital, la programación. Trabajo con tecnologías modernas como
-        <span className="text-royalGold font-semibold"> React, Next.js, Tailwind, SQL, Vue.js</span> y más.
+        Amo el arte digital, la programación, y juegos como <strong>Persona 5 Royal</strong>,
+        que me han inspirado a nunca rendirme. Trabajo con tecnologías modernas como
+        <span className="text-royalGold font-semibold"> React, Next.js, Tailwind, SQL</span> y más.
       </motion.p>
 
       <motion.p
