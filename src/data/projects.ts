@@ -1,6 +1,3 @@
-import { image } from "framer-motion/client";
-import { Teachers } from "next/font/google";
-
 export const projects = [
 
   {
