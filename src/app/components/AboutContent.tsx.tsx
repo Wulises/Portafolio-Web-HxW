@@ -22,11 +22,11 @@ export default function AboutContent() {
         transition={{ delay: 0.3, duration: 0.8 }}
         className="text-lg md:text-xl max-w-3xl text-center font-body text-creamWhite leading-relaxed"
       >
-        Soy Ulises, desarrollador full stack con un enfoque en frontend.
+        Soy Ulises, desarrollador full stack.
         Me apasiona crear experiencias elegantes, intuitivas y visualmente atractivas.
-        Amo el arte digital, la programación, y juegos como <strong>Persona 5 Royal</strong>,
+        Amo el arte digital, la programación, y juegos como <strong className='text-haruPurple'>Persona 5 Royal</strong>,
         que me han inspirado a nunca rendirme. Trabajo con tecnologías modernas como
-        <span className="text-royalGold font-semibold"> React, Next.js, Tailwind, SQL</span> y más.
+        <span className="text-royalGold font-semibold"> Vue.js, React, Next.js, Tailwind, SQL</span> y más.
       </motion.p>
 
       <motion.p
@@ -36,7 +36,7 @@ export default function AboutContent() {
         className="mt-8 text-md md:text-lg max-w-2xl text-center text-creamWhite font-body"
       >
         Mi enfoque combina diseño y funcionalidad para construir soluciones que no solo funcionen,
-        sino que se vean y sientan bien. Estoy comprometido a crecer como profesional y dar lo mejor en cada proyecto.
+        sino que se vean y sientan bien. Estoy comprometido a crecer como profesional y <span className='text-royalGold font-semibold'> dar lo mejor en cada proyecto. </span> 
       </motion.p>
 
       <motion.div

@@ -27,7 +27,7 @@ export default function ProjectsPage() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-lg md:text-xl font-body text-center text-creamWhite"
         >
-          Aquí te muestro algunos de los proyectos que he desarrollado con pasión, creatividad y mucho café ☕.
+          Estos son algunos de los proyectos que he desarrollado con pasión, creatividad y mucho <strong className='text-haruPurple'>café</strong>☕.
         </motion.p>
 
         {/* Lista de proyectos */}

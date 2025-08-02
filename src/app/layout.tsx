@@ -6,7 +6,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-displa
 
 export const metadata = {
   title: "Mi Portafolio | Haru Style",
-  description: "Portafolio inspirado en Persona 5 Royal y Haru Okumura",
+  description: "Portafolio inspirado en Persona 5 Royal y Haru Okumura, gran parte de mi inspiración al crear esto.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

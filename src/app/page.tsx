@@ -17,7 +17,7 @@ export default function HomePage() {
           className="flex justify-center"
         >
           <Image
-            src="/images/profile.jfif"
+            src="/images/Profile.jpg"
             alt="Ulises Sánchez Muñoz"
             width={180}
             height={180}
