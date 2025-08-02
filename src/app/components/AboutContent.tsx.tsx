@@ -23,9 +23,7 @@ export default function AboutContent() {
         className="text-lg md:text-xl max-w-3xl text-center font-body text-creamWhite leading-relaxed"
       >
         Soy Ulises, desarrollador full stack.
-        Me apasiona crear experiencias elegantes, intuitivas y visualmente atractivas.
-        Amo el arte digital, la programación, y juegos como <strong className='text-haruPurple'>Persona 5 Royal</strong>,
-        que me han inspirado a nunca rendirme. Trabajo con tecnologías modernas como
+        Me apasiona crear experiencias elegantes, intuitivas y visualmente atractivas.Trabajo con tecnologías modernas como
         <span className="text-royalGold font-semibold"> Vue.js, React, Next.js, Tailwind, SQL</span> y más.
       </motion.p>
 
