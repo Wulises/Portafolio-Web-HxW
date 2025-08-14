@@ -36,6 +36,7 @@ Inspirado visual y temáticamente en *Persona 5 Royal*, especialmente en Haru Ok
 ---
 
 Estructura de Carpetas
+
 /app
 │
 ├── page.tsx              → Página principal (Inicio)
