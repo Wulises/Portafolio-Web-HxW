@@ -35,7 +35,7 @@ export const projects = [
     image: '/images/ima4.png',
     techs: ['Next.js', 'Node.js', 'Tailwind CSS', 'PostgreSQL', 'Express'],
     github: '',
-    demo: 'https://the-real-phantom-full-stack-thief-h-alpha.vercel.app/',
+    demo: 'https://phantom-full-stack.vercel.app/',
   }
 
 ]
