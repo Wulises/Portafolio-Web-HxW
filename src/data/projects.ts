@@ -30,10 +30,10 @@ export const projects = [
   },
 
   {
-    title: 'Aplicación Monstruo de todo lo que es full stack',
-    description: 'Aplicación web full stack con Next.js 13, Taiwind CSS, PostgreSQL, la cual muestra todo lo que se necesita para dominar el stack completo y moderno de desarrollo web.',
+    title: 'The Phantom Full Stack Mastery',
+    description: 'Aplicación web full stack diseñada para enseñar desarrollo web con una amplia gama de tecnologías: Next.js, React, Node.js, Prisma, SQL, y más. El proyecto incluye una plataforma gamificada de aprendizaje interactivo, donde cada módulo cubre un área esencial del stack, permitiendo a los usuarios practicar teoría y código en tiempo real.',
     image: '/images/ima4.png',
-    techs: ['Next.js', 'Node.js', 'Tailwind CSS', 'PostgreSQL', 'Express'],
+    techs: ['Next.js', 'Node.js', 'Tailwind CSS', 'TypeScript', 'PostgreSQL', 'Framer Motion'],
     github: '',
     demo: 'https://phantom-full-stack.vercel.app/',
   }
